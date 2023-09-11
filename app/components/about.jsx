@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from "next/image"
 
+// import { Link } from "react-scroll/modules"
+
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
@@ -38,16 +40,19 @@ const About = () => {
                 </p>
                 <br />
                 <p>
-                  I graduated from indian Institute of Technology, Delhi in 2021
+                I am a Computer Science and Engineering graduate from IIT Delhi in 2021 with a BTech degree and have been working in the
+                  field ever since. {/* I graduated from indian Institute of Technology, Delhi in 2021
                   with a BTech in Computer Science And Engineering and have been working in the
-                  field ever since.
+                  field ever since. */}
                 </p>
                 <br />
                 <p>
-                  I have a wide range of hobbies and passions that keep me busy.
+                I have extensive expertise in a wide range of programming languages, including NodeJS, ReactJS, OracleSQL, Python, Postgres-SQL, C++, Java, C, VHDL, and OCaml. Proficient in utilizing tools such as Git, AutoCAD, Vivado, Linux, Xillinx, Microsoft-Office, Unity, and LATEX, I have demonstrated a strong academic performance, such as being among the top 0.1 percent of successful candidates in Mathematics in CBSE Class - XII and securing All India Rank 553 in Joint Entrance Examination (JEE) Advance.
+Currently, as a Software/AI-ML Engineer at HBSS India.
+                  {/* I have a wide range of hobbies and passions that keep me busy.
                   From reading, playing sports, traveling, to making YouTube videos,
                   I am always seeking new experiences and love to keep myself
-                  engaged and learning new things.
+                  engaged and learning new things. */}
                 </p>
                 <br />
                 <p>
@@ -63,7 +68,7 @@ const About = () => {
               </div>
               <div className="text-center md:w-1/2 md:text-left">
                 <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-                <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+                <div className="flex flex-wrap md:top-2 flex-row justify-center z-10 md:justify-start">
                   {skills.map((item, idx) => {
                     return (
                       <p
@@ -77,17 +82,30 @@ const About = () => {
                 </div >
                 
                 <Image
-                  src="/welcome.png"
+                  src="/welcome.svg"
                   alt=""
                   width={310}
-                  height={325}
-                  className="hidden md:block md:relative md:bottom-1 md:left-22 md:z-0"
+                  height={360}
+                  className="hidden md:mt-20 md:block md:relative md:left-12 md:z-0"
                 />
                 
+              
                
               </div>
+              
             </div>
+            
           </div>
+          {/* <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <HiArrowDown size={35} className="animate-bounce" />
+          </Link> */}
         </section>
       )
 }

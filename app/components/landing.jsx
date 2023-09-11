@@ -11,11 +11,11 @@ const Landing = () => {
         <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
           <div className="md:mt-2 md:w-1/2">
             <Image
-              src="/sanskar.png"
+              src="/sanskar_1.png"
               alt=""
-              width={325}
-              height={325}
-              className="rounded-full shadow-2xl"
+              width={390}
+              height={390}
+              className=" shadow-2xl"
             />
           </div>
           <div className="md:mt-2 md:w-3/5">
@@ -28,7 +28,10 @@ const Landing = () => {
               based in Rajasthan, India. Working towards creating software that
               makes life easier and more meaningful.
             </p>
-            <Link
+            <a
+             className="text-neutral-100 mt-10 font-bold px-12 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            href="/SANSKAR_CV.pdf" download="SANSKAR_CV">Download Resume</a>
+            {/* <Link
               to="Resume"
               className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
               activeClass="active"
@@ -38,7 +41,7 @@ const Landing = () => {
               duration={500}
             >
               Resume
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="flex flex-row items-center text-center justify-center ">

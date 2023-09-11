@@ -3,7 +3,7 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineLinkedin,
-  AiOutlineYoutube,
+  AiOutlineInstagram,
 } from "react-icons/ai"
 
 const Footer = () => {
@@ -42,6 +42,18 @@ const Footer = () => {
               size={30}
             />
           </a>
+
+          <a
+            href="https://www.instagram.com/sanskar_pareta/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineInstagram
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
           {/* <a
             href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
             rel="noreferrer"

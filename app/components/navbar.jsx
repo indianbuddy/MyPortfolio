@@ -81,11 +81,11 @@ return (
                     onClick={()=> setTheme("dark")}
                     className="bg-slate-100 p-2 rounded-xl"
                     >
-                        <RiMoonFill size = {30} />
+                        <RiMoonFill size = {30} color = "black"/>
                     </button>
 
                 )
-            }
+            } 
             
 
             </div> 
