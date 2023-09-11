@@ -1,7 +1,8 @@
+"use client"
 import React from 'react'
 import Image from "next/image"
-
-// import { Link } from "react-scroll/modules"
+import { HiArrowDown } from "react-icons/hi"
+import { Link } from "react-scroll/modules"
 
 const skills = [
   { skill: "HTML" },
@@ -96,7 +97,8 @@ Currently, as a Software/AI-ML Engineer at HBSS India.
             </div>
             
           </div>
-          {/* <Link
+          {/* <div className="flex flex-row items-center text-center justify-center ">
+          <Link
             to="about"
             activeClass="active"
             spy={true}
@@ -104,8 +106,10 @@ Currently, as a Software/AI-ML Engineer at HBSS India.
             offset={-100}
             duration={500}
           >
-            <HiArrowDown size={35} className="animate-bounce" />
-          </Link> */}
+           <HiArrowDown size={35} className="animate-bounce" />
+            
+          </Link>
+          </div> */}
         </section>
       )
 }

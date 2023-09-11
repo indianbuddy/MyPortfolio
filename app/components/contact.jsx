@@ -12,13 +12,13 @@ const contacts = [
 		name: 'sanskar27pareta@gmail.com',
 		icon: <FiMail />,
 	},
-    {
-		id: 3,
-		name: 'sanskar.pareta@iitdalumni.com',
-		icon: <FiMail />,
-	},
+    // {
+	// 	id: 3,
+	// 	name: 'sanskar.pareta@iitdalumni.com',
+	// 	icon: <FiMail />,
+	// },
 	{
-		id: 4,
+		id: 3,
 		name: '+91-7728840988',
 		icon: <FiPhone />,
 	},
